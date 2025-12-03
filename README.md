@@ -1,14 +1,25 @@
 # Baby_Monitor_Raspberry_Pi
 IoT Baby Monitor built with Raspberry Pi: real-time audio detection, Flask video streaming, and automated email alerts.
 
+
+
 A smart 👶� baby-monitoring system built using Raspberry Pi, capable of:
+
+
 🎤 Detecting baby cries using live audio
+
 📸 Capturing images when crying is detected
+
 🌐 Streaming live video through a Flask MJPEG server
+
 📧 Sending email alerts with a link to the live stream
+
 This project was built using Python, Flask, sounddevice, and Raspberry Pi camera tools.
 
+
+
 🚀 Features
+
 🔊 1. Cry Detection
 Uses the microphone to continuously listen.
 Calculates volume using NumPy.
